@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Advanced DOM Interaction</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1 id="main-title" class="title">Welcome to the Dynamic DOM Playground</h1>
+    </header>
+
+    <section class="controls">
+      <p id="description" class="description">
+        Explore JavaScript DOM manipulation with animated elements.
+      </p>
+      <div class="button-group">
+        <button id="changeTextBtn" class="btn">Change Text</button>
+        <button id="changeStyleBtn" class="btn">Change Style</button>
+        <button id="addItemBtn" class="btn">Add Item</button>
+        <button id="removeItemBtn" class="btn danger">Remove Last Item</button>
+      </div>
+    </section>
+
+    <section class="list-section">
+      <ul id="itemList" class="animated-list">
+        <li class="list-item">Item 1</li>
+        <li class="list-item">Item 2</li>
+      </ul>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; 2025 Interactive DOM UI</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
